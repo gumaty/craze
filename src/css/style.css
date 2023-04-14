@@ -7,7 +7,7 @@
 
 }
 :root {
-    --max-width: 1080px;
+    --max-width: 930px;
     --gray-dark: #232323;
     --gray-light: #838383;
 }
@@ -27,6 +27,9 @@ img {
 
 .container {
     background-image: url('../images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .header__inner {
@@ -35,7 +38,7 @@ img {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    gap: 100px;
+    gap: 60px;
 }
 
 .header__left {
@@ -63,6 +66,7 @@ img {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    margin-bottom: 60px;
 }
 
 .main__header {
@@ -106,6 +110,3 @@ img {
     line-height: 1.36;
     text-align: center;
 }
-
-
-
